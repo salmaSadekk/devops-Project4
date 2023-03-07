@@ -1,0 +1,15 @@
+voclabs:~/environment/project-ml-microservice-kubernetesvoclabs:~/environment/project-ml-microservice-kubernetes $ bash run_kubernetes.sh
+Error from server (AlreadyExists): pods "prediction-pod" already exists
+NAME             READY   STATUS    RESTARTS   AGE
+prediction-pod   1/1     Running   0          66s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+
+
+
+voclabs:~/environment/project-ml-microservice-kubernetes $ bash make_prediction.shPort: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
